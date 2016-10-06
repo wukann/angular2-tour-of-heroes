@@ -6,6 +6,7 @@ import { AppComponent }   from './app.component';
 import { routing } from './app.routing';
 import { HeroDetailComponent } from './hero-detail.component';
 import { HeroesComponent } from './heroes.component';
+import { DashboardComponent } from './dashboard.component';
 import { HeroService } from './hero.service';
 
 @NgModule({
@@ -15,7 +16,8 @@ import { HeroService } from './hero.service';
     routing 
   ],
   declarations: [ 
-    AppComponent, 
+    AppComponent,
+    DashboardComponent, 
     HeroDetailComponent,
     HeroesComponent 
   ],
