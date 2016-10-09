@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router }            from '@angular/router';
 
-import { Hero } from './hero';
+import { Hero }        from './hero';
 import { HeroService } from './hero.service';
 
 @Component({
@@ -13,7 +13,8 @@ import { HeroService } from './hero.service';
 export class HeroesComponent implements OnInit {
   constructor(
     private router: Router,
-    private heroService: HeroService) {}
+    private heroService: HeroService) { }
+    
   selectedHero: Hero;
   heroes: Hero[];
 
