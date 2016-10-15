@@ -44,3 +44,5 @@ typings/**
 !systemjs.config.js
 
 .vscode/launch.json
+
+yarn.lock
